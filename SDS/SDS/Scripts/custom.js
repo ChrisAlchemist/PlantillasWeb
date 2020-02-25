@@ -47,5 +47,17 @@
       adaptiveHeight: true,
       mode: 'fade'
     });
+
+    $("#inicio-opciones .rotating").Morphext({
+        animation: "flipInX",
+        separator: ",",
+        speed: 3000
+    });
+
+    $(".bnr-para").Morphext({
+        animation: "flipInX",
+        separator: ".",
+        speed: 4000
+    });
     
 })(jQuery);
