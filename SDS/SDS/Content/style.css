@@ -554,7 +554,8 @@ contact
 ***********************************/
 #contact
 {
-    background-color: rgb(73, 84, 105);
+    /*background-color: rgb(73, 84, 105);*/
+    background-color: black;
 }
 .btn-submit, .btn-submit:hover, .btn-submit:focus
 {
@@ -776,7 +777,7 @@ body{
 
 .navbar-brand img {
     margin-top: -3.1%; 
-    width:30%;
+    width:27%;
 }
 
 
@@ -1437,6 +1438,7 @@ body{
     font-size: 1.5em;
     width:100%;
     font-family:Consolas;
+    
 }
 
 @media (max-width: 600px) {
@@ -1462,7 +1464,7 @@ body{
     }
 
     100% {
-        transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 12));
     }
 }
 
@@ -1497,7 +1499,7 @@ body{
     .slider .slide-track {
         animation: scroll 40s linear infinite;
         display: flex;
-        width: calc(250px * 14);
+        width: calc(300px * 14);
     }
 
     .slider .slide {
@@ -1573,14 +1575,15 @@ body{
 
 
 .container #letrasMaquina {
-    color: lime;
-    font-family: "consoles";
-    font-size: 12px;
-    margin: 10px 0 0 10px;
+    margin-top: 13%;
+    font-size: 1.5em;
+    width: 100%;
+    font-family: Consolas;
+    
     white-space: nowrap;
     overflow: hidden;
-    width: 30em;
-    animation: type 4s steps(60, end);
+    width: 143em;
+    animation: type 4s steps(80, end);
 }
 
 .container #letrasMaquina:nth-child(2) {
