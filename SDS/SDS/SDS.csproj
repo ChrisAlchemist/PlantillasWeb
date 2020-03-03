@@ -129,8 +129,10 @@
   <ItemGroup>
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Equipo.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\jquery.bxslider.css" />
+    <Content Include="Content\Portafolio.css" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -179,6 +181,50 @@
     <Content Include="img\Tecnologias\node.png" />
     <Content Include="img\Tecnologias\ssql.png" />
     <Content Include="img\thumb.png" />
+    <Content Include="img\work\1.jpg" />
+    <Content Include="img\work\2.jpg" />
+    <Content Include="img\work\3.jpg" />
+    <Content Include="img\work\4.jpg" />
+    <Content Include="img\work\5.jpg" />
+    <Content Include="img\work\6.jpg" />
+    <Content Include="img\work\7.jpg" />
+    <Content Include="img\work\8.jpg" />
+    <Content Include="img\work\cpr_protype\cpr_protype1.jpg" />
+    <Content Include="img\work\cpr_protype\cpr_protype2.jpg" />
+    <Content Include="img\work\cpr_protype\cpr_protype3.jpg" />
+    <Content Include="img\work\cpr_protype\cpr_protype4.jpg" />
+    <Content Include="img\work\cpr_protype\cpr_protype5.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones1.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones10.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones11.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones2.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones3.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones4.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones5.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones6.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones7.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones8.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_soluciones9.jpg" />
+    <Content Include="img\work\cpr_soluciones\cpr_solucionesPrincipal.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz1.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz2.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz3.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz4.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz5.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz6.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz7.jpg" />
+    <Content Include="img\work\logicZotz\logicZotz8.jpg" />
+    <Content Include="img\work\logicZotz\logicZotzPrincipal.jpg" />
+    <Content Include="img\work\tgz\tgz1.jpg" />
+    <Content Include="img\work\tgz\tgz2.jpg" />
+    <Content Include="img\work\tgz\tgz3.jpg" />
+    <Content Include="img\work\tgz\tgz4.jpg" />
+    <Content Include="img\work\tgz\tgzPrincipal.jpg" />
+    <Content Include="img\work\toz\toz1.jpg" />
+    <Content Include="img\work\toz\toz2.jpg" />
+    <Content Include="img\work\toz\toz3.jpg" />
+    <Content Include="img\work\toz\toz4.jpg" />
+    <Content Include="img\work\toz\tozPrincipal.jpg" />
     <Content Include="img\_preloader.svg" />
     <Content Include="lib\animate-css\animate.min.css" />
     <Content Include="lib\bootstrap\css\bootstrap-theme.css" />
@@ -209,6 +255,7 @@
     <Content Include="Scripts\jquery.bxslider.min.js" />
     <Content Include="Scripts\jquery.easing.min.js" />
     <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\Portafolio.js" />
     <Content Include="Scripts\wow.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -252,6 +299,7 @@
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="img\work\FormatosDePresentacion.pptx" />
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>
