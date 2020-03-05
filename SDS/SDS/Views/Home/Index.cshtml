@@ -84,7 +84,7 @@
                                 <span id="cursor">|</span>
                             </p>-->
                             <div class="brn-btn">
-                                <a href="#" class="btn btn-download">Download now!</a>
+                                <a href="#" class="btn btn-download">Descarga la App!</a>
                                 <a href="#" class="btn btn-more">Learn More</a>
                             </div>
                             <div class="overlay-detail">
@@ -216,14 +216,14 @@
     <section id="portfolio">
         <div class="container wow fadeInUp">
             <div class="col-md-12 text-center">
-                <h2 class="service-title pad-bt15">Nuestro Equipo</h2>
-                <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2 class="service-title pad-bt15">Algunos de nuestros proyectos</h2>
+                <p class="sub-title pad-bt15">Te presentamos algunas aplicaciones que hemos desarrollado.</p>
                 <hr class="bottom-line">
             </div>
 
             <div class="row">
                 <div class="col-md-3" onclick="mostrarDescripcion(1)">
-                    <ul class="grid">
+                    <!--<ul class="grid">-->
 
                         <a class="portfolio-item" style="background-image: url(/img/work/logicZotz/logicZotzPrincipal.jpg);" href="Javascript:">
                             <div class="details">
@@ -231,7 +231,7 @@
                                 <span>Aplicación Windows</span>
                             </div>
                         </a>
-                    </ul>
+                    <!--</ul>-->
                 </div>
 
                 <div class="col-md-3" onclick="mostrarDescripcion(2)">
@@ -261,7 +261,7 @@
                     </a>,
                 </div>
 
-                <!--<h2 style="text-align: center;">Esto es un salto</h2>-->
+                <!--<h2 style="text-align: center;">Esto es un salto</h2>
 
                 <div class="col-md-3" onclick="mostrarDescripcion(5)">
                     <a class="portfolio-item" style="background-image: url(/img/portfolio-5.jpg);" href="Javascript:">
@@ -297,7 +297,7 @@
                             <span>Alored dono par</span>
                         </div>
                     </a>
-                </div>
+                </div>-->
 
             </div>
         </div>
@@ -310,7 +310,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h2 class="service-title pad-bt15">Nuestro Equipo</h2>
-                    <p class="sub-title pad-bt15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="sub-title pad-bt15">Nuestro equipo cuenta con experiencia en el ambito, conocelos.</p>
                     <hr class="bottom-line">
                 </div>
             </div>
@@ -453,8 +453,7 @@
             </div>
         </div>
     </section>
-
-
+    
 
 
     <!---->
@@ -511,7 +510,7 @@
         </div>
     </section>
 
-    
+
     <!---->
     <!---->
     <footer id="footer">
@@ -533,23 +532,33 @@
 <!--======================
     Modals
     =====================-->
-
-<div class="modal fade" id="modalDescripcionPortafolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">Descripción</h4>
-            </div>
-            <div id="contenidoDescripcionPortafolio" class="modal-body">
-                <img id="imagenesPortafolio" width='100%' height='100%' />
-                <p id="descripcionPortafolio"></p>
-            </div>
-            <div class="modal-footer">
-
-                <!--<button type="button"  class="btn btn-info" data-dismiss="modal"> Aceptar</button>-->
-                <button type="button"  class="bubbly-button" data-dismiss="modal"> Aceptar</button>
-            </div>
+<div id="modals-seccion">
+    <div class="modal" id="modalDescripcionPortafolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <button type="button" data-dismiss="modal" title="Close" class="close">X</button>
+        <!--<a data-dismiss="modal" title="Close" class="close">X</a>-->
+        <h3 id="titulo-portafolio">Content Title</h3>
+        <div class="text">
+            <p id="descripcionPortafolio"></p>
+                
         </div>
+        <div id="slideshow">
+            <div class="slideshow-img"><img id="imagenesPortafolio1" width='100%' height='100%' /></div>
+            <div class="slideshow-img"><img id="imagenesPortafolio2" width='100%' height='100%' /></div>
+            <div class="slideshow-img"><img id="imagenesPortafolio3" width='100%' height='100%' /></div>
+            <!--<div class="slideshow-img"><img src="https://placeimg.com/320/240/nature" alt="" /></div>
+            <div class="slideshow-img"><img src="https://placeimg.com/320/240/tech" alt="" /></div>-->
+        </div>
+
+            <!--<img id="imagenesPortafolio" width='100%' height='100%' />-->
+            <p id="descripcionPortafolio"></p>
+
+        <!--<div class="modal-footer">
+
+            <button type="button"  class="btn btn-info" data-dismiss="modal"> Aceptar</button>
+            <button type="button" class="bubbly-button" data-dismiss="modal"> Aceptar</button>
+        </div>-->
+
+
     </div>
 </div>
 
@@ -570,4 +579,4 @@
 <script src="~/Scripts/custom.js"></script>
 <script src="~/Scripts/contactform/contactform.js"></script>
 
-<script src="~/Scripts/Portafolio.js"></script>
+<!--<script src="~/Scripts/Portafolio.js"></script>-->
